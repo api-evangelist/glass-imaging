@@ -1,7 +1,26 @@
 aid: glass-imaging
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glass-imaging.png
 name: Glass Imaging
-description: 'Glass Imaging is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Glass Imaging is a Los Altos, California AI company that enhances image and video quality
+  on smartphones and imaging devices. Its GlassAI technology uses machine learning to reverse lens
+  aberrations and sensor imperfections, extracting the full image-quality potential of camera hardware
+  by removing noise, blur, and artifacts. The company ships a Custom Neural ISP that boosts camera
+  performance up to 10x on edge AI-enabled devices, and a Co-Designed AI + Optics approach for
+  space-constrained (SWaP) cameras. Glass Imaging sells to smartphone and device manufacturers and
+  is venture-backed by Google Ventures, LDV Capital, Future Ventures, Abstract Ventures, Ground Up,
+  and Insight Partners. This is a company profile in the API Evangelist network; Glass Imaging does
+  not currently publish a public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/glass-imaging/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Computational Photography
+- Imaging
+- Machine Learning
+- Neural ISP
+- Cameras
+- Smartphones
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glass-imaging-domain-security.yml
 - type: Website
   url: https://www.glass-imaging.com
+- type: Blog
+  url: https://www.glass-imaging.com/journal
+- type: PrivacyPolicy
+  url: https://www.glass-imaging.com/privacy-policy
+- type: TermsOfService
+  url: https://www.glass-imaging.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -47,7 +47,7 @@ tags:
 - Artificial Intelligence
 - Computational Photography
 - Imaging
-- Machine-Learning
+- Machine Learning
 - Neural ISP
 - Camera
 - Smartphones
@@ -60,6 +60,7 @@ tags_raw:
 - Neural ISP
 - Cameras
 - Smartphones
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
